@@ -1,0 +1,93 @@
+body 
+	{
+	color: white;
+	margin: 0px
+	}
+#container 
+	{
+	color: white;
+	background-color: #0ff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;	
+	/*overflow: visible;*/
+	visibility: visible;
+	display: block
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+	}
+.blur {
+  background-color: #fafafa;
+	margin:0;
+	position: absolute;
+	top: -150px;
+	left:0;
+	width: 100%;
+	height: 300px;
+	visibility: visible;
+  overflow: hidden;
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  filter: blur(20px);
+  float:left;
+}
+.circle1, .circle2, .circle3, .circle4, .circle5,
+.circle6, .circle7, .circle8, .circle9, .circle10{
+	border-radius: 50%;
+  width: 100px;
+	height: 100px; 
+  background: rgba(180,45,153,0.20);
+  position:fixed;
+	/* width and height can be anything, as long as they're equal */
+}
+.circle2 {
+  width: 70px;
+	height: 70px; 
+  background: rgba(129,34,53, 0.25);
+}
+.circle3 {
+  width: 50px;
+	height: 50px; 
+  background: rgba(40,229,64,0.80);
+}
+.circle4 {
+  width: 30px;
+	height: 30px; 
+  background: rgba(200,129,34,0.50);
+}
+.circle5 {
+  width: 130px;
+	height: 130px; 
+  background: rgba(100,29,134,0.45);
+}
+.circle6 {
+  width: 200px;
+	height: 200px; 
+  background: rgba(220,29,134,0.75);
+}
+.circle7 {
+  width: 80px;
+	height: 80px; 
+  background: rgba(40,210,134,0.34);
+}
+.circle8 {
+  width: 180px;
+	height: 180px; 
+  background: rgba(150,29,134,0.75);
+}
+.circle9 {
+  width: 100px;
+	height: 100px; 
+  background: rgba(36,210,134,0.55);
+}
+.circle10 {
+  width: 500px;
+	height: 500px; 
+  background: rgba(180,180,180,0.25);
+}
