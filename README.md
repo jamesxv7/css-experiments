@@ -1,3 +1,5 @@
-css-experiments
+CSS Experiments
 ===============
- A little of JS, HTML... 
+ A little experiment using some Javascript, HTML and others languages... 
+
+Blur Circles
